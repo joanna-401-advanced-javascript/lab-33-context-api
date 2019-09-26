@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const CounterContext = React.createContext();
 
 class CounterProvider extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       count: 0,
@@ -33,13 +34,13 @@ class CounterProvider extends React.Component {
 
   increment = () => {
     this.setState((previousState) => {
-      return {count: previousState.count + 1};
+      return { count: previousState.count + 1 };
     });
   };
 
   decrement = () => {
     this.setState((previousState) => {
-      return {count: previousState.count - 1};
+      return { count: previousState.count - 1 };
     });
   };
 
@@ -51,5 +52,9 @@ class CounterProvider extends React.Component {
     );
   }
 }
+
+CounterProvider.propTypes = {
+  children: PropTypes.element,
+};
 
 export default CounterProvider;

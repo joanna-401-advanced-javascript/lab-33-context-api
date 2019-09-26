@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './app.js';
-import CounterContext from "./components/counter/counter-context";
+import App from './app';
+import Context from './components/counter/counter-context';
 
 class Main extends React.Component {
   render() {
     return (
-      <CounterContext>
+      <Context>
         <App />
-      </CounterContext>
-    )
+      </Context>
+    );
   }
 }
 
