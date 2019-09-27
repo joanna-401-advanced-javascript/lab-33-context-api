@@ -1,5 +1,7 @@
 // Animated Button "Pressed Effect" from https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3
 
+@import "variables";
+
 body {
   width: 480px;
   margin: 0 auto;
@@ -8,14 +10,10 @@ body {
 #root {
   background-color: aliceblue;
   border-radius: 180px;
+  font-family: Roboto Mono, sans-serif;
 }
 
 .wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 40%;
   height: 480px;
   margin: 20% auto;
 }

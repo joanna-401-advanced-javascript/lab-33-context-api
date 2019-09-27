@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './app';
-import Context from './components/counter/counter-context';
+import Context from './context/counter-context';
 
 class Main extends React.Component {
   render() {

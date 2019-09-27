@@ -1,5 +1,5 @@
 import React from 'react';
-import { CounterContext } from './counter-context';
+import { CounterContext } from '../../context/counter-context';
 
 class Counter extends React.Component {
   render() {

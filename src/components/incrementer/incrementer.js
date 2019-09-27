@@ -1,5 +1,5 @@
 import React from 'react';
-import { CounterContext } from '../counter/counter-context';
+import { CounterContext } from '../../context/counter-context';
 
 export default function Incrementer() {
   return (
