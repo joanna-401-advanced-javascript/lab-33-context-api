@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './app.js';
+import App from './app';
+import Context from './context/counter-context';
 
 class Main extends React.Component {
   render() {
-    return <App />;
+    return (
+      <Context>
+        <App />
+      </Context>
+    );
   }
 }
 

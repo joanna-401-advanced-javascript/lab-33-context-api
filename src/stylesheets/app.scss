@@ -1,0 +1,29 @@
+// Animated Button "Pressed Effect" from https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3
+
+@import "variables";
+
+body {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#root {
+  background-color: aliceblue;
+  border-radius: 180px;
+  font-family: Roboto Mono, sans-serif;
+}
+
+.wrapper {
+  height: 480px;
+  margin: 20% auto;
+}
+
+button {
+  border-radius: 35%;
+  box-shadow: 0 5px #999;
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
