@@ -5,8 +5,8 @@
 ### Author: Joanna Arroyo
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/joanna-401-advanced-javascript/lab-33-context-api/pull/1)
+* [travis](https://travis-ci.com/joanna-401-advanced-javascript/lab-33-context-api)
 
 #### Documentation
 * [styleguide](http://xyz.com)
@@ -15,7 +15,11 @@
 #### `index.js` `app.js` `counter.js` `counter-context.js` `incrementer.js` `decrementer.js` `setupTests.js`
 
 ##### Exported Values and Methods
-###### `foo(thing) -> string`
+###### `app.js -> React class component`
+###### `counter.js -> React class component`
+###### `incrementer.js -> React functional component`
+###### `decrementer.js -> React functional component`
+###### `counter-context.js -> React provider context component`
 
 ### Setup
 #### Running the app
